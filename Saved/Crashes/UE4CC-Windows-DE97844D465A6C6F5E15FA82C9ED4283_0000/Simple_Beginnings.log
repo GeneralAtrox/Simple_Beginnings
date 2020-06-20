@@ -1,0 +1,1524 @@
+﻿Log file open, 06/20/20 16:11:54
+LogInit: Display: Running engine for game: Simple_Beginnings
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.149895
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=GeneralAtrox -epicuserid=887e7592536044c0980ad8c8f0959d68 -epiclocale=en
+LogInit: Base Directory: C:/Tools/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:543][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.20-15.11.54:543][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:544][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:546][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.20-15.11.54:546][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.20-15.11.54:547][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:547][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.20-15.11.54:548][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.20-15.11.54:548][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.20-15.11.54:548][  0]LogHAL: Display: Platform has ~ 16 GB [16963276800 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.20-15.11.54:548][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.20-15.11.54:548][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Scalability.ini]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.20-15.11.54:549][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE4 Projects/Simple_Beginnings/Saved/Config/Windows/Engine.ini]
+[2020.06.20-15.11.54:549][  0]LogInit: Computer: ALIENWARE-R15
+[2020.06.20-15.11.54:549][  0]LogInit: User: svjkr
+[2020.06.20-15.11.54:549][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.06.20-15.11.54:549][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.20-15.11.54:549][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.06.20-15.11.54:550][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.20-15.11.54:550][  0]LogMemory: Process Physical Memory: 118.18 MB used, 118.19 MB peak
+[2020.06.20-15.11.54:550][  0]LogMemory: Process Virtual Memory: 97.39 MB used, 97.39 MB peak
+[2020.06.20-15.11.54:550][  0]LogMemory: Physical Memory: 9861.35 MB used,  6316.09 MB free, 16177.44 MB total
+[2020.06.20-15.11.54:550][  0]LogMemory: Virtual Memory: 5166.45 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.06.20-15.11.54:780][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.20-15.11.54:812][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.20-15.11.54:813][  0]LogInit: Using OS detected language (en-GB).
+[2020.06.20-15.11.54:813][  0]LogInit: Using OS detected locale (en-GB).
+[2020.06.20-15.11.54:816][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.06.20-15.11.54:989][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.20-15.11.55:031][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.20-15.11.55:031][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.20-15.11.55:200][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.20-15.11.55:200][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.20-15.11.55:200][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.20-15.11.55:200][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.20-15.11.55:270][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
+[2020.06.20-15.11.55:270][  0]LogD3D11RHI:       8010/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.20-15.11.55:291][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.06.20-15.11.55:291][  0]LogD3D11RHI:       128/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.06.20-15.11.55:293][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.20-15.11.55:293][  0]LogD3D11RHI:       0/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.20-15.11.55:293][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.20-15.11.55:334][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.20-15.11.55:334][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.20-15.11.55:334][  0]LogWindows: EnumDisplayDevices:
+[2020.06.20-15.11.55:334][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.06.20-15.11.55:334][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.06.20-15.11.55:334][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.06.20-15.11.55:335][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.06.20-15.11.55:335][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.06.20-15.11.55:335][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.06.20-15.11.55:335][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.06.20-15.11.55:336][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.06.20-15.11.55:336][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
+[2020.06.20-15.11.55:336][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.06.20-15.11.55:336][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.06.20-15.11.55:336][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.06.20-15.11.55:394][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.20-15.11.55:397][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.20-15.11.55:397][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.20-15.11.55:397][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.20-15.11.55:437][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.06.20-15.11.55:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.20-15.11.55:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.20-15.11.55:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.20-15.11.55:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.20-15.11.55:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.20-15.11.55:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.20-15.11.55:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.20-15.11.55:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.20-15.11.55:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.20-15.11.55:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.20-15.11.55:765][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.20-15.11.55:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.20-15.11.55:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.20-15.11.55:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.20-15.11.55:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.20-15.11.55:810][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.20-15.11.55:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.20-15.11.55:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.20-15.11.55:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.20-15.11.55:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.20-15.11.55:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.20-15.11.55:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.20-15.11.55:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.20-15.11.55:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.20-15.11.55:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.20-15.11.55:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.20-15.11.55:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.20-15.11.55:903][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.20-15.11.55:904][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.20-15.11.55:910][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.20-15.11.55:962][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/UE4 Projects/Simple_Beginnings/Intermediate/Shaders/WorkingDirectory/15120/).
+[2020.06.20-15.11.55:962][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/svjkr/AppData/Local/Temp/UnrealShaderWorkingDir/A858BF2D4706A74DE1B95FBEC5B2397C/'.
+[2020.06.20-15.11.55:962][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.20-15.11.55:962][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.20-15.11.55:962][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.20-15.11.56:635][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.20-15.11.56:681][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/svjkr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.20-15.11.56:681][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/svjkr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.20-15.11.56:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UE4 Projects/Simple_Beginnings/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.20-15.11.56:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.20-15.11.56:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UE4 Projects/Simple_Beginnings/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.20-15.11.56:681][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.20-15.11.56:690][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.20-15.11.56:690][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.20-15.11.56:690][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.20-15.11.56:691][  0]LogDerivedDataCache: Using Local data cache path C:/Users/svjkr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.20-15.11.56:692][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.20-15.11.56:692][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.20-15.11.56:739][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.20-15.11.56:739][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.20-15.11.56:766][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.06.20-15.11.56:997][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.20-15.11.57:520][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.20-15.11.57:520][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.20-15.11.57:520][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.20-15.11.57:520][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.20-15.11.57:520][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.20-15.11.57:535][  0]LogNetVersion: Simple_Beginnings 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2156192385)
+[2020.06.20-15.11.57:942][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000227A5E94380), frame # 0
+[2020.06.20-15.11.57:942][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000227A5DC39C0), frame # 0
+[2020.06.20-15.11.57:943][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000227A5E1E000), frame # 0
+[2020.06.20-15.12.02:330][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 4.380138 seconds
+[2020.06.20-15.12.02:336][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.20-15.12.02:336][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.20-15.12.02:336][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.20-15.12.02:655][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.20-15.12.03:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.20-15.12.04:624][  0]SourceControl: Source control is disabled
+[2020.06.20-15.12.04:624][  0]SourceControl: Source control is disabled
+[2020.06.20-15.12.04:628][  0]SourceControl: Source control is disabled
+[2020.06.20-15.12.04:630][  0]SourceControl: Source control is disabled
+[2020.06.20-15.12.04:636][  0]SourceControl: Source control is disabled
+[2020.06.20-15.12.06:268][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.20-15.12.06:287][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.20-15.12.06:287][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.20-15.12.06:329][  0]LogOcInput: OculusInput pre-init called
+[2020.06.20-15.12.06:339][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.20-15.12.06:339][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.20-15.12.06:390][  0]LogEngine: Initializing Engine...
+[2020.06.20-15.12.06:392][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.20-15.12.06:392][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.20-15.12.06:392][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.20-15.12.06:500][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.20-15.12.06:507][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.20-15.12.06:507][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000227ACD27C00), frame # 0
+[2020.06.20-15.12.06:507][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000227ACD99440), frame # 0
+[2020.06.20-15.12.06:531][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.20-15.12.06:532][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.20-15.12.06:532][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.20-15.12.06:532][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.20-15.12.06:615][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.20-15.12.06:615][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.20-15.12.06:654][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (Pixel USB-C earbuds)
+[2020.06.20-15.12.06:659][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.20-15.12.06:661][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.20-15.12.06:661][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.20-15.12.06:662][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.20-15.12.06:663][  0]LogInit: FAudioDevice initialized.
+[2020.06.20-15.12.06:663][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.20-15.12.07:120][  0]LogDerivedDataCache: Saved boot cache 0.46s 76MB C:/Users/svjkr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.20-15.12.07:128][  0]LogInit: Texture streaming: Enabled
+[2020.06.20-15.12.07:146][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.20-15.12.07:146][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.20-15.12.07:147][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.20-15.12.07:169][  0]LogInit: Transaction tracking system initialized
+[2020.06.20-15.12.07:188][  0]BlueprintLog: New page: Editor Load
+[2020.06.20-15.12.09:148][  0]LocalizationService: Localization service is disabled
+[2020.06.20-15.12.09:346][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/Simple_Beginnings/Content/' took 0.00s
+[2020.06.20-15.12.09:346][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.20-15.12.09:346][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.20-15.12.09:684][  0]SourceControl: Source control is disabled
+[2020.06.20-15.12.09:684][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.428
+[2020.06.20-15.12.09:684][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.20-15.12.09:684][  0]LightingResults: New page: Lighting Build
+[2020.06.20-15.12.09:685][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.20-15.12.09:685][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.20-15.12.09:685][  0]MapCheck: New page: Map Check
+[2020.06.20-15.12.09:685][  0]LightingResults: New page: Lighting Build
+[2020.06.20-15.12.09:695][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000227ACD27C00), frame # 0
+[2020.06.20-15.12.09:695][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000227ACD99440), frame # 0
+[2020.06.20-15.12.09:696][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.06.20-15.12.09:740][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.06.20-15.12.09:740][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002279A73FE00), frame # 0
+[2020.06.20-15.12.09:740][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002279A0AD800), frame # 0
+[2020.06.20-15.12.09:744][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.20-15.12.09:755][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.06.20-15.12.09:755][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.20-15.12.09:756][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2020.06.20-15.12.09:756][  0]LogFileHelpers: Loading map 'Template_Default' took 0.071
+[2020.06.20-15.12.09:757][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.501
+[2020.06.20-15.12.09:929][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.20-15.12.09:936][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.20-15.12.09:942][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.20-15.12.09:949][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.20-15.12.09:965][  0]LogCollectionManager: Loaded 0 collections in 0.001517 seconds
+[2020.06.20-15.12.09:994][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/Simple_Beginnings/Saved/Collections/' took 0.00s
+[2020.06.20-15.12.09:994][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/Simple_Beginnings/Content/Developers/svjkr/Collections/' took 0.00s
+[2020.06.20-15.12.09:994][  0]LogFileCache: Scanning file cache for directory 'D:/UE4 Projects/Simple_Beginnings/Content/Collections/' took 0.00s
+[2020.06.20-15.12.09:994][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3427 classes and 821 folders.
+[2020.06.20-15.12.10:000][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.20-15.12.10:042][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.20-15.12.10:048][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.06.20-15.12.10:230][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.20-15.12.10:233][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.20-15.12.10:250][  0]LogSlate: Took 0.008341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.20-15.12.10:381][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.06.20-15.12.10:576][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.20-15.12.10:576][  0]LogLoad: (Engine Initialization) Total time: 17.32 seconds
+[2020.06.20-15.12.10:576][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.20-15.12.10:720][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.20-15.12.13:982][191]LogAssetRegistry: Asset discovery search completed in 17.2173 seconds
+[2020.06.20-15.12.13:988][191]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.20-15.12.22:124][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.20-15.12.27:902][692]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.12.29:676][797]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2020.06.20-15.12.30:109][823]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 1
+[2020.06.20-15.12.30:659][856]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2020.06.20-15.12.33:393][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.20-15.12.34:865][107]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.12.35:361][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.20-15.12.36:080][177]LogSlate: Took 0.006456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.20-15.12.36:559][204]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.12.40:366][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.20-15.12.44:273][664]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.06.20-15.12.48:438][913]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.20-15.12.50:808][ 55]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.20-15.12.52:710][169]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.20-15.12.58:181][497]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.20-15.13.00:081][611]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.20-15.13.00:849][657]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.13.02:244][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.20-15.13.03:183][795]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.06.20-15.13.05:541][936]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.20-15.13.06:308][982]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.13.29:183][339]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.06.20-15.13.38:624][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.20-15.13.42:394][130]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.13.42:823][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.13.43:589][201]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2020.06.20-15.14.13:379][986]Cmd: TRANSACTION UNDO
+[2020.06.20-15.14.13:379][986]LogEditorTransaction: Undo Move Actors
+[2020.06.20-15.14.13:401][986]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.20-15.14.50:617][209]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.14.55:596][507]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.14.56:063][535]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2020.06.20-15.14.57:129][598]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.20-15.14.57:574][624]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.06.20-15.15.06:806][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.06.20-15.15.09:896][176]LogSlate: Window 'Save Level As' being destroyed
+[2020.06.20-15.15.13:108][358]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.20-15.15.28:605][754]LogSlate: Window 'Save Level As' being destroyed
+[2020.06.20-15.15.28:643][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1_Prototype" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.20-15.15.28:661][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.06.20-15.15.28:689][754]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Level_1_Prototype6026745947D35797366FB8B58A3190D3.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype.umap'
+[2020.06.20-15.15.29:569][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1_Prototype_BuiltData" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype_BuiltData.uasset" SILENT=true
+[2020.06.20-15.15.31:992][754]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Level_1_Prototype_BuiltData3EB8DAAC42C66418E650F886095A99F6.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype_BuiltData.uasset'
+[2020.06.20-15.15.32:044][754]LogFileHelpers: Saving map 'Level_1_Prototype' took 3.434
+[2020.06.20-15.15.33:501][754]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.15.33:501][754]LogContentValidation: Display: Validating World /Game/Levels/Level_1_Prototype.Level_1_Prototype
+[2020.06.20-15.15.33:501][754]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_1_Prototype_BuiltData.Level_1_Prototype_BuiltData
+[2020.06.20-15.15.35:623][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1_Prototype" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.20-15.15.37:779][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.06.20-15.15.39:745][879]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Level_1_PrototypeA2723F6B44B7653FD000E08313A24D8C.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype.umap'
+[2020.06.20-15.15.39:753][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1_Prototype_BuiltData" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype_BuiltData.uasset" SILENT=true
+[2020.06.20-15.15.41:014][879]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Level_1_Prototype_BuiltData5D6478944CEC7AF7C547CE948988D6F2.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Levels/Level_1_Prototype_BuiltData.uasset'
+[2020.06.20-15.15.41:566][879]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.15.41:566][879]LogContentValidation: Display: Validating World /Game/Levels/Level_1_Prototype.Level_1_Prototype
+[2020.06.20-15.15.41:566][879]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_1_Prototype_BuiltData.Level_1_Prototype_BuiltData
+[2020.06.20-15.19.29:658][678]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Desktop Files\Simple_Beginnings\PlayerSprite.png)
+[2020.06.20-15.19.29:703][678]LogTexture: Display: Building textures: PlayerSprite (BGRA8, 916X927)
+[2020.06.20-15.19.35:352][972]LogTexture: Display: Building textures: PlayerSprite_Volume (BGRA8, 101X103)
+[2020.06.20-15.19.36:453][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.06.20-15.19.37:872][ 37]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.20-15.19.38:147][ 37]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Sprites/Player/PlayerSprite_Volume.PlayerSprite_Volume
+[2020.06.20-15.19.39:696][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.06.20-15.19.48:721][567]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.20-15.19.52:636][800]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.19.53:432][845]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.19.53:469][845]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.06.20-15.20.19:243][299]LogTexture: Display: Building textures: PlayerSprite (BGRA8, 916X927)
+[2020.06.20-15.20.55:340][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite.uasset" SILENT=true
+[2020.06.20-15.20.55:744][447]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite68D42E6D499DEF2C45D0C39F4ABA1100.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite.uasset'
+[2020.06.20-15.20.55:756][447]AssetCheck: New page: Asset Save: PlayerSprite
+[2020.06.20-15.20.55:756][447]LogContentValidation: Display: Validating Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.21.00:043][703]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.21.00:049][703]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.23.20:019][558]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.23.31:639][144]LogEditorFactories: Performing atomic reimport of [D:/Desktop Files/Simple_Beginnings/PlayerSprite_MagicPink.png]
+[2020.06.20-15.23.31:640][144]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Desktop Files/Simple_Beginnings/PlayerSprite_MagicPink.png)
+[2020.06.20-15.23.31:664][144]LogTexture: Display: Building textures: PlayerSprite (BGRA8, 916X927)
+[2020.06.20-15.23.31:687][144]LogEditorFactories: -- imported successfully
+[2020.06.20-15.23.57:450][656]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.20-15.24.31:458][676]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.25.36:128][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.06.20-15.25.36:133][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_1_Prototype' took 0.017
+[2020.06.20-15.25.37:245][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite] ([1] browsable assets)...
+[2020.06.20-15.25.37:254][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite]
+[2020.06.20-15.25.37:254][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite]
+[2020.06.20-15.25.37:254][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite" FILE="D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.06.20-15.25.37:283][ 60]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Auto112F856ED4DFDDC650A8C439362A07C6E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Auto1.uasset'
+[2020.06.20-15.25.37:283][ 60]LogFileHelpers: Auto-saving content packages took 1.150
+[2020.06.20-15.27.19:133][414]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.27.23:272][578]LogEditorFactories: Performing atomic reimport of [D:/Desktop Files/Simple_Beginnings/PlayerSprite.png]
+[2020.06.20-15.27.23:272][578]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Desktop Files/Simple_Beginnings/PlayerSprite.png)
+[2020.06.20-15.27.23:297][578]LogTexture: Display: Building textures: PlayerSprite (BGRA8, 916X927)
+[2020.06.20-15.27.23:314][578]LogEditorFactories: -- imported successfully
+[2020.06.20-15.27.25:085][678]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.27.30:445][969]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.27.30:451][969]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.28.03:160][324]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.29.08:366][889]LogEditorFactories: Performing atomic reimport of [D:/Desktop Files/Simple_Beginnings/PlayerSprite.png]
+[2020.06.20-15.29.08:367][889]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Desktop Files/Simple_Beginnings/PlayerSprite.png)
+[2020.06.20-15.29.08:378][889]LogTexture: Display: Building textures: PlayerSprite (BC5, 600X760)
+[2020.06.20-15.29.08:413][889]LogEditorFactories: -- imported successfully
+[2020.06.20-15.29.16:135][321]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.30.20:577][613]LogEditorFactories: Performing atomic reimport of [D:/Desktop Files/Simple_Beginnings/PlayerSprite.png]
+[2020.06.20-15.30.20:578][613]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Desktop Files/Simple_Beginnings/PlayerSprite.png)
+[2020.06.20-15.30.20:592][613]LogTexture: Display: Building textures: PlayerSprite (BC5, 600X760)
+[2020.06.20-15.30.20:625][613]LogEditorFactories: -- imported successfully
+[2020.06.20-15.30.27:151][981]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.30.29:687][128]LogTexture: Display: Building textures: PlayerSprite_Volume (BGRA8, 75X95)
+[2020.06.20-15.30.31:662][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.06.20-15.30.32:952][241]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.20-15.30.33:221][241]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Sprites/Player/PlayerSprite_Volume.PlayerSprite_Volume
+[2020.06.20-15.30.33:361][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.06.20-15.30.39:100][571]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.30.40:134][629]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.30.43:192][799]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.30.43:197][799]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.32.03:014][176]LogEditorFactories: Performing atomic reimport of [D:/Desktop Files/Simple_Beginnings/PlayerSprite.png]
+[2020.06.20-15.32.06:234][176]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Desktop Files/Simple_Beginnings/PlayerSprite.png)
+[2020.06.20-15.32.06:243][176]LogTexture: Display: Building textures: PlayerSprite (BC5, 600X760)
+[2020.06.20-15.32.06:278][176]LogEditorFactories: -- imported successfully
+[2020.06.20-15.32.16:547][740]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.32.46:760][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.06.20-15.32.46:798][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite.uasset" SILENT=true
+[2020.06.20-15.32.46:830][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite479247474C2966332D14FEAB4DC25F78.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite.uasset'
+[2020.06.20-15.32.46:841][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_0" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_0.uasset" SILENT=true
+[2020.06.20-15.32.46:850][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_0C20F42894CD8720915B2439961BE0D7E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_0.uasset'
+[2020.06.20-15.32.46:857][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_1" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_1.uasset" SILENT=true
+[2020.06.20-15.32.46:867][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_1719E37554A17A7BD91575EBAAA8F9A3C.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_1.uasset'
+[2020.06.20-15.32.46:873][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_2" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_2.uasset" SILENT=true
+[2020.06.20-15.32.46:882][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_23AC2909B47CC8BD2F98CE2BFA28733D0.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_2.uasset'
+[2020.06.20-15.32.46:888][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_3" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_3.uasset" SILENT=true
+[2020.06.20-15.32.46:898][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_383CDC3644EEEF15DF11CF6A90FC702AE.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_3.uasset'
+[2020.06.20-15.32.46:904][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_4" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_4.uasset" SILENT=true
+[2020.06.20-15.32.46:913][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_48D09EF81425857A6CB5662B79886FADE.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_4.uasset'
+[2020.06.20-15.32.46:918][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_5" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_5.uasset" SILENT=true
+[2020.06.20-15.32.46:975][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_56AF124264C04E21FFD8BEC990DBBEBBE.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_5.uasset'
+[2020.06.20-15.32.46:981][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_6" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_6.uasset" SILENT=true
+[2020.06.20-15.32.48:210][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_605033ADB478834D7A94B09B3FE4F7EE7.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_6.uasset'
+[2020.06.20-15.32.48:217][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_7" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_7.uasset" SILENT=true
+[2020.06.20-15.32.48:428][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_7A6138863488C82F2CCEB24AFCFA8CC79.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_7.uasset'
+[2020.06.20-15.32.48:437][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_8" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_8.uasset" SILENT=true
+[2020.06.20-15.32.49:196][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_8027D855347DE938A2DB62D8CBCD597E5.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_8.uasset'
+[2020.06.20-15.32.49:202][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_9" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_9.uasset" SILENT=true
+[2020.06.20-15.32.52:370][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_9D405584748ED2F5F1CDFA7B0F93FA3FB.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_9.uasset'
+[2020.06.20-15.32.52:376][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_10" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_10.uasset" SILENT=true
+[2020.06.20-15.32.52:476][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_101C515B66488D31D6D748EF98B045CC73.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_10.uasset'
+[2020.06.20-15.32.52:483][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_11" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_11.uasset" SILENT=true
+[2020.06.20-15.32.52:495][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_116D30AF04421F7E76D41202922412E351.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_11.uasset'
+[2020.06.20-15.32.52:501][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_12" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_12.uasset" SILENT=true
+[2020.06.20-15.32.52:511][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_1218F8B48E441622F8F8477AB101C94A6A.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_12.uasset'
+[2020.06.20-15.32.52:517][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_13" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_13.uasset" SILENT=true
+[2020.06.20-15.32.52:536][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_13ECD14EFA4C0C519D0C70C8A920240B57.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_13.uasset'
+[2020.06.20-15.32.52:542][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_14" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_14.uasset" SILENT=true
+[2020.06.20-15.32.52:554][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_14C0014E07445BD2B4F18EE4BE5EF53594.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_14.uasset'
+[2020.06.20-15.32.52:560][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_15" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_15.uasset" SILENT=true
+[2020.06.20-15.32.54:169][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_1589FB96514B1ECFF3036268B48B0ABAA3.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_15.uasset'
+[2020.06.20-15.32.54:175][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_16" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_16.uasset" SILENT=true
+[2020.06.20-15.32.54:184][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_165565A4AC4574C78453C324A5F261D448.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_16.uasset'
+[2020.06.20-15.32.54:190][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_17" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_17.uasset" SILENT=true
+[2020.06.20-15.32.54:201][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_17433C8E08485B015C7BAD92BA3DCEC22C.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_17.uasset'
+[2020.06.20-15.32.54:207][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_18" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_18.uasset" SILENT=true
+[2020.06.20-15.32.54:219][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_18E3A7E7544717A175015C38B40B71F9D9.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_18.uasset'
+[2020.06.20-15.32.54:226][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_19" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_19.uasset" SILENT=true
+[2020.06.20-15.32.54:236][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_19A4ED796F4EB42413969A36B68E35D5D6.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_19.uasset'
+[2020.06.20-15.32.54:243][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_20" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_20.uasset" SILENT=true
+[2020.06.20-15.32.54:253][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_20AA3DD12C4B1953C2EC8AA99420D62BF5.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_20.uasset'
+[2020.06.20-15.32.54:260][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_21" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_21.uasset" SILENT=true
+[2020.06.20-15.32.54:334][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_2116FBBA2049122D4651EB6582D6BADFF6.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_21.uasset'
+[2020.06.20-15.32.54:340][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_22" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_22.uasset" SILENT=true
+[2020.06.20-15.32.54:351][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_22A4DD567B4FE8204F68B9DDBE528CE91B.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_22.uasset'
+[2020.06.20-15.32.54:357][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_23" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_23.uasset" SILENT=true
+[2020.06.20-15.32.54:375][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_233AD2A5F54534F6E2206F9C8FC9FB9390.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_23.uasset'
+[2020.06.20-15.32.54:383][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_24" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_24.uasset" SILENT=true
+[2020.06.20-15.32.54:394][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_244798FF214162B7725AB87FBC57AECBCC.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_24.uasset'
+[2020.06.20-15.32.54:400][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_25" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_25.uasset" SILENT=true
+[2020.06.20-15.32.55:590][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_25BFB31324495E775CCA27EF96F1027679.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_25.uasset'
+[2020.06.20-15.32.55:597][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_26" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_26.uasset" SILENT=true
+[2020.06.20-15.32.55:739][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_26977F14F645C4D54D5B22ECAEDD94AB99.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_26.uasset'
+[2020.06.20-15.32.55:746][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_27" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_27.uasset" SILENT=true
+[2020.06.20-15.32.55:759][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_27AA7055714E3AA78FE386EA9AE7594638.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_27.uasset'
+[2020.06.20-15.32.55:765][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_28" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_28.uasset" SILENT=true
+[2020.06.20-15.32.55:778][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_283180B0D842AD7AF387EFBCBFB091D66D.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_28.uasset'
+[2020.06.20-15.32.55:784][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_29" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_29.uasset" SILENT=true
+[2020.06.20-15.32.57:384][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_297E5977AC47791B053B06229127558793.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_29.uasset'
+[2020.06.20-15.32.57:392][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_30" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_30.uasset" SILENT=true
+[2020.06.20-15.32.57:404][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_3075E659964A26E7335BE07FA4C50BEE1E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_30.uasset'
+[2020.06.20-15.32.57:411][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_31" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_31.uasset" SILENT=true
+[2020.06.20-15.32.57:421][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_3141CFCBDE4F7B3977441530B22425DAF7.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_31.uasset'
+[2020.06.20-15.32.57:428][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_32" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_32.uasset" SILENT=true
+[2020.06.20-15.32.58:581][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_3281B228BA41399A9A7E72C89006429975.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_32.uasset'
+[2020.06.20-15.32.58:588][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_33" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_33.uasset" SILENT=true
+[2020.06.20-15.32.58:597][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_335C7426E24B0361BF7FDA148CE6D2E372.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_33.uasset'
+[2020.06.20-15.32.58:604][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_34" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_34.uasset" SILENT=true
+[2020.06.20-15.32.58:614][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_3432D701AE43410AF1C4B38E949412835A.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_34.uasset'
+[2020.06.20-15.32.58:620][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_35" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_35.uasset" SILENT=true
+[2020.06.20-15.32.58:631][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_35B31E0A24480042C8B89B8A992AD8961A.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_35.uasset'
+[2020.06.20-15.32.58:646][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_36" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_36.uasset" SILENT=true
+[2020.06.20-15.32.58:657][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_36E697346D43D82B69991381B30C961F56.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_36.uasset'
+[2020.06.20-15.32.58:673][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_37" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_37.uasset" SILENT=true
+[2020.06.20-15.32.58:685][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_373AEFBC7F410421A4DC0E5F9B9BFE34D3.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_37.uasset'
+[2020.06.20-15.32.58:692][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_38" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_38.uasset" SILENT=true
+[2020.06.20-15.32.58:744][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_38F60587F94BCF52AC2ADA219FD3EB8D53.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_38.uasset'
+[2020.06.20-15.32.58:752][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_39" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_39.uasset" SILENT=true
+[2020.06.20-15.32.58:766][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_39136D084144F834D8F15E549FAEF89FF2.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_39.uasset'
+[2020.06.20-15.32.58:782][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_40" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_40.uasset" SILENT=true
+[2020.06.20-15.32.59:608][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_404CD6C90F44695F7A5C40D68D4A21CF8C.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_40.uasset'
+[2020.06.20-15.32.59:623][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_41" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_41.uasset" SILENT=true
+[2020.06.20-15.32.59:633][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_41910B3CBD41BC9C909D29339F89FB3FD4.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_41.uasset'
+[2020.06.20-15.32.59:639][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_42" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_42.uasset" SILENT=true
+[2020.06.20-15.32.59:651][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_420F30480C41DDAA2903A36CA9124C0688.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_42.uasset'
+[2020.06.20-15.32.59:658][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_43" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_43.uasset" SILENT=true
+[2020.06.20-15.32.59:667][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_4313EC218648DB4F64F59149AE45F0116B.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_43.uasset'
+[2020.06.20-15.32.59:675][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_44" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_44.uasset" SILENT=true
+[2020.06.20-15.32.59:687][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_44B8EED0FE4907E4CF8AEFD08618955F33.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_44.uasset'
+[2020.06.20-15.32.59:694][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_45" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_45.uasset" SILENT=true
+[2020.06.20-15.32.59:709][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_45003B18D24B600C537389F49C1BACA5CD.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_45.uasset'
+[2020.06.20-15.32.59:716][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_46" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_46.uasset" SILENT=true
+[2020.06.20-15.32.59:726][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_4620F719094D7FDA59BF4074A4DBEAED32.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_46.uasset'
+[2020.06.20-15.32.59:733][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_47" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_47.uasset" SILENT=true
+[2020.06.20-15.32.59:744][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_4707143CE94DCDB3B45F759681878713BB.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_47.uasset'
+[2020.06.20-15.32.59:759][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_48" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_48.uasset" SILENT=true
+[2020.06.20-15.32.59:821][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_48665A2A324265B4EF2550C8A1D17A5310.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_48.uasset'
+[2020.06.20-15.32.59:837][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_49" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_49.uasset" SILENT=true
+[2020.06.20-15.33.00:173][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_49C63212144D60803216B0DF83591E0E96.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_49.uasset'
+[2020.06.20-15.33.00:179][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_50" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_50.uasset" SILENT=true
+[2020.06.20-15.33.00:190][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_5049A38E224567807FB0D02187AC9658EC.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_50.uasset'
+[2020.06.20-15.33.00:202][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_51" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_51.uasset" SILENT=true
+[2020.06.20-15.33.00:213][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_5187EE68734ECA6CEC564CBE9AF384DDDF.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_51.uasset'
+[2020.06.20-15.33.00:224][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_52" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_52.uasset" SILENT=true
+[2020.06.20-15.33.00:236][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_52A60E0A3449D3C55A4DC940AF83CEAE45.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_52.uasset'
+[2020.06.20-15.33.00:242][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_53" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_53.uasset" SILENT=true
+[2020.06.20-15.33.00:256][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_534E1419D641FFC158EA2693B4BE09B7F2.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_53.uasset'
+[2020.06.20-15.33.00:274][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_54" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_54.uasset" SILENT=true
+[2020.06.20-15.33.00:285][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_541306F15F4FC05CD6845AD0B71062B3C4.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_54.uasset'
+[2020.06.20-15.33.00:292][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_55" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_55.uasset" SILENT=true
+[2020.06.20-15.33.00:322][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_551FD2F2A645F78585085636B86D6192B0.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_55.uasset'
+[2020.06.20-15.33.00:330][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_56" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_56.uasset" SILENT=true
+[2020.06.20-15.33.00:342][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_567FA6379144D0969DF26D3BBF328C3229.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_56.uasset'
+[2020.06.20-15.33.00:357][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_57" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_57.uasset" SILENT=true
+[2020.06.20-15.33.00:373][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_576388C8F144E8B5F20727A7B7F0808D54.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_57.uasset'
+[2020.06.20-15.33.00:380][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_58" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_58.uasset" SILENT=true
+[2020.06.20-15.33.01:845][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_581507FD754CF6A8E197DB91B0FAE79510.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_58.uasset'
+[2020.06.20-15.33.01:851][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_59" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_59.uasset" SILENT=true
+[2020.06.20-15.33.04:671][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_59E0D302554CA2C25A56879C94FA237D41.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_59.uasset'
+[2020.06.20-15.33.04:677][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_60" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_60.uasset" SILENT=true
+[2020.06.20-15.33.04:688][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6023A2749A424B5B6F34E919A9C8CB0C96.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_60.uasset'
+[2020.06.20-15.33.04:697][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_61" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_61.uasset" SILENT=true
+[2020.06.20-15.33.04:711][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6152726E114DFA076E368365867C01C581.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_61.uasset'
+[2020.06.20-15.33.04:729][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_62" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_62.uasset" SILENT=true
+[2020.06.20-15.33.04:743][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6210AFDCC64B0C48BD568E04A30D533D7F.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_62.uasset'
+[2020.06.20-15.33.04:753][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_63" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_63.uasset" SILENT=true
+[2020.06.20-15.33.04:767][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6342F9C2D9442D8AFD8942269AFCCE22B5.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_63.uasset'
+[2020.06.20-15.33.04:776][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_64" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_64.uasset" SILENT=true
+[2020.06.20-15.33.04:791][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6440E2E07848284B11DA3615902B622CF3.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_64.uasset'
+[2020.06.20-15.33.04:805][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_65" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_65.uasset" SILENT=true
+[2020.06.20-15.33.04:824][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_659B0E7A4B4151E504033EAF969380B8F6.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_65.uasset'
+[2020.06.20-15.33.04:836][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_66" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_66.uasset" SILENT=true
+[2020.06.20-15.33.04:863][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_665460737B485D43992210E0A5FFD1621F.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_66.uasset'
+[2020.06.20-15.33.04:880][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_67" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_67.uasset" SILENT=true
+[2020.06.20-15.33.06:102][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_67C2ECBE3948BA248A49A8FEA70D284124.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_67.uasset'
+[2020.06.20-15.33.06:110][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_68" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_68.uasset" SILENT=true
+[2020.06.20-15.33.06:121][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6885EFCA7B4C30D7AF23CC258B95C960FA.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_68.uasset'
+[2020.06.20-15.33.06:127][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_69" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_69.uasset" SILENT=true
+[2020.06.20-15.33.06:136][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_6967BFA9A84F437FCFDCACFBA3693177AF.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_69.uasset'
+[2020.06.20-15.33.06:142][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_70" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_70.uasset" SILENT=true
+[2020.06.20-15.33.06:156][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_70F1F739A842676923D1696D8A4452BE6E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_70.uasset'
+[2020.06.20-15.33.06:162][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_71" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_71.uasset" SILENT=true
+[2020.06.20-15.33.06:174][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_713C648BAF42EBFADB183554A740B1BF83.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_71.uasset'
+[2020.06.20-15.33.06:180][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_72" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_72.uasset" SILENT=true
+[2020.06.20-15.33.06:192][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_7203E2A1ED464BA83979C40E88B74BEE9C.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_72.uasset'
+[2020.06.20-15.33.06:198][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_73" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_73.uasset" SILENT=true
+[2020.06.20-15.33.06:208][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_73C73B592F41BF784A91298F951620C8C2.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_73.uasset'
+[2020.06.20-15.33.06:215][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_74" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_74.uasset" SILENT=true
+[2020.06.20-15.33.06:225][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_7403353D464C0D10872DFC038B9FCB3204.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_74.uasset'
+[2020.06.20-15.33.06:232][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_75" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_75.uasset" SILENT=true
+[2020.06.20-15.33.06:242][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_7551CB5C2C4C90D3B91A1C2F9C5EE0C97E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_75.uasset'
+[2020.06.20-15.33.06:247][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_76" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_76.uasset" SILENT=true
+[2020.06.20-15.33.06:261][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_765D00DC3B4587592ED580759CB3A9897F.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_76.uasset'
+[2020.06.20-15.33.06:270][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_77" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_77.uasset" SILENT=true
+[2020.06.20-15.33.06:281][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_77270680994D5707B24858D3BA7361FBFF.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_77.uasset'
+[2020.06.20-15.33.06:288][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_78" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_78.uasset" SILENT=true
+[2020.06.20-15.33.07:145][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_780C9DE412447C583DBAD2F899BD1E9443.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_78.uasset'
+[2020.06.20-15.33.07:151][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_79" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_79.uasset" SILENT=true
+[2020.06.20-15.33.07:161][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_7919D1748040767FB8E58E4FA62D4855C9.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_79.uasset'
+[2020.06.20-15.33.07:167][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_80" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_80.uasset" SILENT=true
+[2020.06.20-15.33.07:177][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_80A75388FB48F63C398A3B96A9554A507D.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_80.uasset'
+[2020.06.20-15.33.07:184][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_81" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_81.uasset" SILENT=true
+[2020.06.20-15.33.07:193][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_81E54D71F2411BA8C8D07085AE732D855E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_81.uasset'
+[2020.06.20-15.33.07:200][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_82" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_82.uasset" SILENT=true
+[2020.06.20-15.33.07:211][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_824C935DC9495758194F1B27B97EE122F4.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_82.uasset'
+[2020.06.20-15.33.07:216][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_83" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_83.uasset" SILENT=true
+[2020.06.20-15.33.07:226][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_83880EA57141FF2EB13A2D7F8472F3D14F.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_83.uasset'
+[2020.06.20-15.33.07:233][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_84" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_84.uasset" SILENT=true
+[2020.06.20-15.33.07:245][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_84DD57CE3E49ED239BFF4D86B8626CFE29.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_84.uasset'
+[2020.06.20-15.33.07:251][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_85" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_85.uasset" SILENT=true
+[2020.06.20-15.33.07:262][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_8565D56246477307E64BCD28ACA6A5335D.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_85.uasset'
+[2020.06.20-15.33.07:268][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite_Sprite_86" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_86.uasset" SILENT=true
+[2020.06.20-15.33.07:285][404]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_86C89BCCB246FAFD7795450490A5060A7E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/PlayerSprite_Sprite_86.uasset'
+[2020.06.20-15.33.07:375][404]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_0.PlayerSprite_Sprite_0
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_1.PlayerSprite_Sprite_1
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_2.PlayerSprite_Sprite_2
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_3.PlayerSprite_Sprite_3
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_4.PlayerSprite_Sprite_4
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_5.PlayerSprite_Sprite_5
+[2020.06.20-15.33.07:375][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_6.PlayerSprite_Sprite_6
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_7.PlayerSprite_Sprite_7
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_8.PlayerSprite_Sprite_8
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_9.PlayerSprite_Sprite_9
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_10.PlayerSprite_Sprite_10
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_11.PlayerSprite_Sprite_11
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_12.PlayerSprite_Sprite_12
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_13.PlayerSprite_Sprite_13
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_14.PlayerSprite_Sprite_14
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_15.PlayerSprite_Sprite_15
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_16.PlayerSprite_Sprite_16
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_17.PlayerSprite_Sprite_17
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_18.PlayerSprite_Sprite_18
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_19.PlayerSprite_Sprite_19
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_20.PlayerSprite_Sprite_20
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_21.PlayerSprite_Sprite_21
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_22.PlayerSprite_Sprite_22
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_23.PlayerSprite_Sprite_23
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_24.PlayerSprite_Sprite_24
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_25.PlayerSprite_Sprite_25
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_26.PlayerSprite_Sprite_26
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_27.PlayerSprite_Sprite_27
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_28.PlayerSprite_Sprite_28
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_29.PlayerSprite_Sprite_29
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_30.PlayerSprite_Sprite_30
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_31.PlayerSprite_Sprite_31
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_32.PlayerSprite_Sprite_32
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_33.PlayerSprite_Sprite_33
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_34.PlayerSprite_Sprite_34
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_35.PlayerSprite_Sprite_35
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_36.PlayerSprite_Sprite_36
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_37.PlayerSprite_Sprite_37
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_38.PlayerSprite_Sprite_38
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_39.PlayerSprite_Sprite_39
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_40.PlayerSprite_Sprite_40
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_41.PlayerSprite_Sprite_41
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_42.PlayerSprite_Sprite_42
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_43.PlayerSprite_Sprite_43
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_44.PlayerSprite_Sprite_44
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_45.PlayerSprite_Sprite_45
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_46.PlayerSprite_Sprite_46
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_47.PlayerSprite_Sprite_47
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_48.PlayerSprite_Sprite_48
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_49.PlayerSprite_Sprite_49
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_50.PlayerSprite_Sprite_50
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_51.PlayerSprite_Sprite_51
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_52.PlayerSprite_Sprite_52
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_53.PlayerSprite_Sprite_53
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_54.PlayerSprite_Sprite_54
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_55.PlayerSprite_Sprite_55
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_56.PlayerSprite_Sprite_56
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_57.PlayerSprite_Sprite_57
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_58.PlayerSprite_Sprite_58
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_59.PlayerSprite_Sprite_59
+[2020.06.20-15.33.07:376][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_60.PlayerSprite_Sprite_60
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_61.PlayerSprite_Sprite_61
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_62.PlayerSprite_Sprite_62
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_63.PlayerSprite_Sprite_63
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_64.PlayerSprite_Sprite_64
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_65.PlayerSprite_Sprite_65
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_66.PlayerSprite_Sprite_66
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_67.PlayerSprite_Sprite_67
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_68.PlayerSprite_Sprite_68
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_69.PlayerSprite_Sprite_69
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_70.PlayerSprite_Sprite_70
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_71.PlayerSprite_Sprite_71
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_72.PlayerSprite_Sprite_72
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_73.PlayerSprite_Sprite_73
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_74.PlayerSprite_Sprite_74
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_75.PlayerSprite_Sprite_75
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_76.PlayerSprite_Sprite_76
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_77.PlayerSprite_Sprite_77
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_78.PlayerSprite_Sprite_78
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_79.PlayerSprite_Sprite_79
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_80.PlayerSprite_Sprite_80
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_81.PlayerSprite_Sprite_81
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_82.PlayerSprite_Sprite_82
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_83.PlayerSprite_Sprite_83
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_84.PlayerSprite_Sprite_84
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_85.PlayerSprite_Sprite_85
+[2020.06.20-15.33.07:377][404]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_86.PlayerSprite_Sprite_86
+[2020.06.20-15.33.08:701][466]LogSlate: Window '87 PaperSprite Objects - Property Matrix Editor' being destroyed
+[2020.06.20-15.33.08:707][466]LogSlate: Window '87 PaperSprite Objects - Property Matrix Editor' being destroyed
+[2020.06.20-15.33.27:525][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.06.20-15.33.33:784][578]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.20-15.33.34:022][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.06.20-15.33.34:034][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:044][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:054][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:064][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:074][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:084][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:094][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.20-15.33.34:104][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.06.20-15.33.34:114][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:124][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.06.20-15.33.34:133][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:142][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:152][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:161][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:170][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:179][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.06.20-15.33.34:188][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.06.20-15.33.34:197][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:206][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:217][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:226][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:235][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:244][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:253][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:262][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:272][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:281][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:290][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:299][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:309][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:318][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.06.20-15.33.34:327][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:337][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:347][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.06.20-15.33.34:357][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:367][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:376][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:385][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:395][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.06.20-15.33.34:404][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:414][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:425][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:434][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:444][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.06.20-15.33.34:453][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:463][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:472][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:482][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:491][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:501][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:510][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.06.20-15.33.34:519][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:528][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:537][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:546][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:556][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:565][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:574][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:583][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:592][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:601][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:611][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.06.20-15.33.34:621][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:631][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.06.20-15.33.34:641][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:650][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:659][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:669][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.06.20-15.33.34:679][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:688][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:698][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:707][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:717][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:727][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:736][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.06.20-15.33.34:745][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:755][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.06.20-15.33.34:764][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:774][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.33.34:783][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:793][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.06.20-15.33.34:803][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.34:812][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.06.20-15.33.34:821][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.06.20-15.33.34:831][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.33.34:841][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.06.20-15.33.34:854][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.06.20-15.33.34:865][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.33.49:636][780]LogEditorFactories: Performing atomic reimport of [D:/Desktop Files/Simple_Beginnings/PlayerSprite.png]
+[2020.06.20-15.33.49:638][780]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Desktop Files/Simple_Beginnings/PlayerSprite.png)
+[2020.06.20-15.33.49:641][780]LogTexture: Display: Building textures: PlayerSprite (BC5, 128X256)
+[2020.06.20-15.33.49:643][780]LogEditorFactories: -- imported successfully
+[2020.06.20-15.33.55:304][ 93]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.34.05:504][687]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_0050DC84644975B8F8995ADA596BF6BBC.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Down/PlayerSprite_Sprite_0.uasset'
+[2020.06.20-15.34.05:518][687]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_18221E4274A6CE5CC4A0F06B03CA323EB.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Down/PlayerSprite_Sprite_1.uasset'
+[2020.06.20-15.34.05:533][687]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_20205E03144BAD1EC1506A4AE414F0C49.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Down/PlayerSprite_Sprite_2.uasset'
+[2020.06.20-15.34.05:548][687]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_3F15ED7F047F1A258CDDBAD801B4F0215.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Down/PlayerSprite_Sprite_3.uasset'
+[2020.06.20-15.34.05:743][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.06.20-15.34.05:755][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.06.20-15.34.05:765][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.34.05:775][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.34.05:794][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.06.20-15.34.05:806][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.06.20-15.34.05:831][687]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.34.05:831][687]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Down/PlayerSprite_Sprite_0.PlayerSprite_Sprite_0
+[2020.06.20-15.34.05:831][687]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Down/PlayerSprite_Sprite_1.PlayerSprite_Sprite_1
+[2020.06.20-15.34.05:831][687]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Down/PlayerSprite_Sprite_2.PlayerSprite_Sprite_2
+[2020.06.20-15.34.05:831][687]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Down/PlayerSprite_Sprite_3.PlayerSprite_Sprite_3
+[2020.06.20-15.34.08:721][851]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_4AF8338FA4908E6934030F6835DE3ED55.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Right/PlayerSprite_Sprite_4.uasset'
+[2020.06.20-15.34.08:781][851]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_5BABDAF7E42B861676BF6538A222A64BE.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Right/PlayerSprite_Sprite_5.uasset'
+[2020.06.20-15.34.08:795][851]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_675955EE6436F0C172B7D7B9CCAB0A1BA.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Right/PlayerSprite_Sprite_6.uasset'
+[2020.06.20-15.34.08:809][851]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_7FEC1927447691F8605B8CA99B9252076.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Right/PlayerSprite_Sprite_7.uasset'
+[2020.06.20-15.34.08:996][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.06.20-15.34.09:009][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.06.20-15.34.09:019][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.20-15.34.09:029][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2020.06.20-15.34.09:048][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.06.20-15.34.09:060][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.34.09:082][851]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.34.09:082][851]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Right/PlayerSprite_Sprite_4.PlayerSprite_Sprite_4
+[2020.06.20-15.34.09:082][851]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Right/PlayerSprite_Sprite_5.PlayerSprite_Sprite_5
+[2020.06.20-15.34.09:082][851]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Right/PlayerSprite_Sprite_6.PlayerSprite_Sprite_6
+[2020.06.20-15.34.09:082][851]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Right/PlayerSprite_Sprite_7.PlayerSprite_Sprite_7
+[2020.06.20-15.34.12:310][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8.uasset" SILENT=true
+[2020.06.20-15.34.12:320][ 36]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_89F20F88140BBCC587422E1B63F288DBC.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8.uasset'
+[2020.06.20-15.34.13:786][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_9" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_9.uasset" SILENT=true
+[2020.06.20-15.34.14:303][ 36]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_98041FE6C4C30B658AAE1CD88B0E8D35D.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_9.uasset'
+[2020.06.20-15.34.14:310][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_10" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_10.uasset" SILENT=true
+[2020.06.20-15.34.14:322][ 36]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_104B53F2E24842F685F771AB9292F21464.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_10.uasset'
+[2020.06.20-15.34.14:328][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_11" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_11.uasset" SILENT=true
+[2020.06.20-15.34.14:341][ 36]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_11EBCB5C7F4E1E1329423DE19B2B9C27D8.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_11.uasset'
+[2020.06.20-15.34.14:548][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2020.06.20-15.34.14:562][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2020.06.20-15.34.14:572][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.06.20-15.34.14:582][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.34.14:601][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.20-15.34.14:613][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.06.20-15.34.14:636][ 36]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.34.14:636][ 36]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8.PlayerSprite_Sprite_8
+[2020.06.20-15.34.14:636][ 36]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_9.PlayerSprite_Sprite_9
+[2020.06.20-15.34.14:636][ 36]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_10.PlayerSprite_Sprite_10
+[2020.06.20-15.34.14:636][ 36]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_11.PlayerSprite_Sprite_11
+[2020.06.20-15.34.18:019][230]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_1285F3963248445BA4680D778D2022D91A.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Left/PlayerSprite_Sprite_12.uasset'
+[2020.06.20-15.34.18:034][230]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_13AC2E62B0478EE93E3328E1B86B25555D.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Left/PlayerSprite_Sprite_13.uasset'
+[2020.06.20-15.34.18:049][230]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_14D97D4DC5408284F9CF5BDC98C763EB07.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Left/PlayerSprite_Sprite_14.uasset'
+[2020.06.20-15.34.18:063][230]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_1548F38F3F42EA939D545687935F4C0F83.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Left/PlayerSprite_Sprite_15.uasset'
+[2020.06.20-15.34.18:256][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.06.20-15.34.18:270][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2020.06.20-15.34.18:280][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.20-15.34.18:289][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.34.18:310][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.06.20-15.34.18:322][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.06.20-15.34.18:343][230]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.34.18:343][230]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Left/PlayerSprite_Sprite_12.PlayerSprite_Sprite_12
+[2020.06.20-15.34.18:343][230]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Left/PlayerSprite_Sprite_13.PlayerSprite_Sprite_13
+[2020.06.20-15.34.18:343][230]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Left/PlayerSprite_Sprite_14.PlayerSprite_Sprite_14
+[2020.06.20-15.34.18:343][230]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Left/PlayerSprite_Sprite_15.PlayerSprite_Sprite_15
+[2020.06.20-15.34.34:936][223]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.20-15.34.50:694][129]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.20-15.35.02:477][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/Movement/Up/Cat_MoveUp" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/Cat_MoveUp.uasset" SILENT=true
+[2020.06.20-15.35.02:487][800]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Cat_MoveUp427C54D6475D7FC70F16449BB93A432A.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/Cat_MoveUp.uasset'
+[2020.06.20-15.35.04:654][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.06.20-15.35.04:676][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.06.20-15.35.04:688][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.06.20-15.35.04:707][800]AssetCheck: New page: Asset Save: Cat_MoveUp
+[2020.06.20-15.35.04:707][800]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Up/Cat_MoveUp.Cat_MoveUp
+[2020.06.20-15.35.10:815][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8.uasset" SILENT=true
+[2020.06.20-15.35.10:826][159]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_878FA393F48E1148F4DD8B48385DE570B.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8.uasset'
+[2020.06.20-15.35.10:963][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.06.20-15.35.10:985][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.06.20-15.35.10:995][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.06.20-15.35.11:012][159]AssetCheck: New page: Asset Save: PlayerSprite_Sprite_8
+[2020.06.20-15.35.11:013][159]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Player/Movement/Up/PlayerSprite_Sprite_8.PlayerSprite_Sprite_8
+[2020.06.20-15.35.12:984][269]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.20-15.35.28:343][163]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.20-15.35.57:043][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Cat_MoveDown" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Cat_MoveDown.uasset" SILENT=true
+[2020.06.20-15.35.57:053][867]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Cat_MoveDownA887C6474D8E483B53F80F81C24AEE42.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Cat_MoveDown.uasset'
+[2020.06.20-15.35.57:060][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Cat_MoveLeft" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Cat_MoveLeft.uasset" SILENT=true
+[2020.06.20-15.35.57:070][867]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Cat_MoveLeftE474A4024625239D9DB3F9992B9867C3.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Cat_MoveLeft.uasset'
+[2020.06.20-15.35.57:075][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Player_MoveRight" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Player_MoveRight.uasset" SILENT=true
+[2020.06.20-15.35.57:084][867]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Player_MoveRight1DF6150B4B1E177E276096A369A04195.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Player_MoveRight.uasset'
+[2020.06.20-15.35.57:091][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Player_MoveUp" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Player_MoveUp.uasset" SILENT=true
+[2020.06.20-15.35.57:103][867]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Player_MoveUpED5F71974332B5EA0014D7B8D59DCC82.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Player_MoveUp.uasset'
+[2020.06.20-15.35.57:277][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.06.20-15.35.57:288][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.20-15.35.57:298][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.06.20-15.35.57:307][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.35.57:332][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.06.20-15.35.57:343][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.20-15.35.57:364][867]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.35.57:364][867]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Cat_MoveDown.Cat_MoveDown
+[2020.06.20-15.35.57:364][867]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Cat_MoveLeft.Cat_MoveLeft
+[2020.06.20-15.35.57:364][867]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Player_MoveRight.Player_MoveRight
+[2020.06.20-15.35.57:364][867]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Player_MoveUp.Player_MoveUp
+[2020.06.20-15.36.04:605][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Movement/Cat_MoveDown" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Cat_MoveDown.uasset" SILENT=true
+[2020.06.20-15.36.04:615][288]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Cat_MoveDownE5DC806E4CA6C02CD149228456952DC5.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Cat_MoveDown.uasset'
+[2020.06.20-15.36.04:621][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Movement/Cat_MoveLeft" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Cat_MoveLeft.uasset" SILENT=true
+[2020.06.20-15.36.04:630][288]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Cat_MoveLeft1CA728234125B4D91B74328809617F68.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Cat_MoveLeft.uasset'
+[2020.06.20-15.36.04:636][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Movement/Player_MoveRight" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Player_MoveRight.uasset" SILENT=true
+[2020.06.20-15.36.04:645][288]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Player_MoveRight2A655514482028B3BAB5C3B3EC9BABA1.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Player_MoveRight.uasset'
+[2020.06.20-15.36.04:651][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Player/Movement/Player_MoveUp" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Player_MoveUp.uasset" SILENT=true
+[2020.06.20-15.36.04:660][288]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/Player_MoveUp8B7FF8EF4BF6BD976220C6A6A76D71D1.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Flipbooks/Player/Movement/Player_MoveUp.uasset'
+[2020.06.20-15.36.04:847][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.06.20-15.36.04:859][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2020.06.20-15.36.04:869][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.06.20-15.36.04:878][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.20-15.36.04:897][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.06.20-15.36.04:909][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.06.20-15.36.04:931][288]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.20-15.36.04:931][288]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Movement/Cat_MoveDown.Cat_MoveDown
+[2020.06.20-15.36.04:931][288]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Movement/Cat_MoveLeft.Cat_MoveLeft
+[2020.06.20-15.36.04:931][288]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Movement/Player_MoveRight.Player_MoveRight
+[2020.06.20-15.36.04:931][288]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/Player/Movement/Player_MoveUp.Player_MoveUp
+[2020.06.20-15.36.08:159][480]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Flipbooks/Player/Movement/Cat_MoveDown.Cat_MoveDown
+[2020.06.20-15.36.08:296][481]LogRenderer: Reallocating scene render targets to support 1216x572 Format 10 NumSamples 1 (Frame:1).
+[2020.06.20-15.36.11:396][662]LogSlate: Window 'Cat_MoveDown' being destroyed
+[2020.06.20-15.36.11:403][662]LogSlate: Window 'Cat_MoveDown' being destroyed
+[2020.06.20-15.36.11:418][662]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.20-15.36.11:418][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.20-15.36.34:077][100]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.36.39:824][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.06.20-15.36.39:826][426]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level_1_Prototype' took 0.022
+[2020.06.20-15.36.39:826][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite] ([1] browsable assets)...
+[2020.06.20-15.36.39:830][426]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite]
+[2020.06.20-15.36.39:830][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite]
+[2020.06.20-15.36.39:830][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player/PlayerSprite" FILE="D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.06.20-15.36.39:845][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Auto2E7D5B7E24A55CEECACDFDA9155241360.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Auto2.uasset'
+[2020.06.20-15.36.39:845][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_16] ([1] browsable assets)...
+[2020.06.20-15.36.39:851][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_16.PlayerSprite_Sprite_16]
+[2020.06.20-15.36.39:851][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_16]
+[2020.06.20-15.36.39:863][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_16_Auto268DA2ED3416B683328DC3FAEA70CD842.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_16_Auto2.uasset'
+[2020.06.20-15.36.39:863][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_17] ([1] browsable assets)...
+[2020.06.20-15.36.39:869][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_17.PlayerSprite_Sprite_17]
+[2020.06.20-15.36.39:869][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_17]
+[2020.06.20-15.36.39:881][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_17_Auto217CE07444A22AE2BEDA6DDA3055D1541.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_17_Auto2.uasset'
+[2020.06.20-15.36.39:882][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_18] ([1] browsable assets)...
+[2020.06.20-15.36.39:887][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_18.PlayerSprite_Sprite_18]
+[2020.06.20-15.36.39:887][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_18]
+[2020.06.20-15.36.39:897][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_18_Auto2F6F5F532487C858607822D8635D56CD0.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_18_Auto2.uasset'
+[2020.06.20-15.36.40:891][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_19] ([1] browsable assets)...
+[2020.06.20-15.36.40:896][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_19.PlayerSprite_Sprite_19]
+[2020.06.20-15.36.40:896][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_19]
+[2020.06.20-15.36.40:908][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_19_Auto280B3A265409849BD54975EAEDBAC5184.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_19_Auto2.uasset'
+[2020.06.20-15.36.40:909][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_20] ([1] browsable assets)...
+[2020.06.20-15.36.40:913][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_20.PlayerSprite_Sprite_20]
+[2020.06.20-15.36.40:913][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_20]
+[2020.06.20-15.36.40:925][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_20_Auto26C322C004241D70805B039886494D8E5.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_20_Auto2.uasset'
+[2020.06.20-15.36.40:926][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_21] ([1] browsable assets)...
+[2020.06.20-15.36.40:930][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_21.PlayerSprite_Sprite_21]
+[2020.06.20-15.36.40:930][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_21]
+[2020.06.20-15.36.40:940][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_21_Auto2570B1C2544DC49D79F822ABBED74871E.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_21_Auto2.uasset'
+[2020.06.20-15.36.40:941][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_22] ([1] browsable assets)...
+[2020.06.20-15.36.40:944][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_22.PlayerSprite_Sprite_22]
+[2020.06.20-15.36.40:945][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_22]
+[2020.06.20-15.36.40:955][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_22_Auto2C144F18C47CBB83753B636A4A249B256.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_22_Auto2.uasset'
+[2020.06.20-15.36.40:955][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_23] ([1] browsable assets)...
+[2020.06.20-15.36.40:959][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_23.PlayerSprite_Sprite_23]
+[2020.06.20-15.36.40:959][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_23]
+[2020.06.20-15.36.40:969][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_23_Auto2CA0248704790DC625E6BE3A9F955E6CB.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_23_Auto2.uasset'
+[2020.06.20-15.36.40:970][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_24] ([1] browsable assets)...
+[2020.06.20-15.36.40:974][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_24.PlayerSprite_Sprite_24]
+[2020.06.20-15.36.40:974][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_24]
+[2020.06.20-15.36.40:986][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_24_Auto2A991399647EB07B2DABFE88AFB5C3DF5.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_24_Auto2.uasset'
+[2020.06.20-15.36.40:987][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_25] ([1] browsable assets)...
+[2020.06.20-15.36.40:992][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_25.PlayerSprite_Sprite_25]
+[2020.06.20-15.36.40:992][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_25]
+[2020.06.20-15.36.41:001][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_25_Auto239AC51264B1EC0991ABC188217DE89F7.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_25_Auto2.uasset'
+[2020.06.20-15.36.41:001][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_26] ([1] browsable assets)...
+[2020.06.20-15.36.41:006][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_26.PlayerSprite_Sprite_26]
+[2020.06.20-15.36.41:006][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_26]
+[2020.06.20-15.36.41:015][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_26_Auto25782FE4F4180560801C25A81809F0A3D.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_26_Auto2.uasset'
+[2020.06.20-15.36.41:016][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_27] ([1] browsable assets)...
+[2020.06.20-15.36.41:020][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_27.PlayerSprite_Sprite_27]
+[2020.06.20-15.36.41:020][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_27]
+[2020.06.20-15.36.41:032][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_27_Auto240273AAA4A81A949BC9013A35843C79B.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_27_Auto2.uasset'
+[2020.06.20-15.36.41:032][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_28] ([1] browsable assets)...
+[2020.06.20-15.36.41:036][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_28.PlayerSprite_Sprite_28]
+[2020.06.20-15.36.41:036][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_28]
+[2020.06.20-15.36.41:046][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_28_Auto2B3D4413B40510E3845F266956971F881.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_28_Auto2.uasset'
+[2020.06.20-15.36.41:047][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_29] ([1] browsable assets)...
+[2020.06.20-15.36.41:051][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_29.PlayerSprite_Sprite_29]
+[2020.06.20-15.36.41:051][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_29]
+[2020.06.20-15.36.41:064][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_29_Auto2BA2252B04EFF162943A506BF72418000.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_29_Auto2.uasset'
+[2020.06.20-15.36.41:064][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_30] ([1] browsable assets)...
+[2020.06.20-15.36.41:068][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_30.PlayerSprite_Sprite_30]
+[2020.06.20-15.36.41:068][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_30]
+[2020.06.20-15.36.41:078][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_30_Auto2E887B0F443D0F1302236959B6CE7BCC3.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_30_Auto2.uasset'
+[2020.06.20-15.36.41:078][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Player/PlayerSprite_Sprite_31] ([1] browsable assets)...
+[2020.06.20-15.36.41:083][426]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_31.PlayerSprite_Sprite_31]
+[2020.06.20-15.36.41:083][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Player/PlayerSprite_Sprite_31]
+[2020.06.20-15.36.41:105][426]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/PlayerSprite_Sprite_31_Auto2FF68E4374F34C4047B98FA9EFBE5CB07.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Saved/Autosaves/Game/Sprites/Player/PlayerSprite_Sprite_31_Auto2.uasset'
+[2020.06.20-15.36.41:105][426]LogFileHelpers: Auto-saving content packages took 1.279
+[2020.06.20-15.36.44:416][619]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_31.PlayerSprite_Sprite_31
+[2020.06.20-15.36.44:552][620]LogRenderer: Reallocating scene render targets to support 1216x640 Format 10 NumSamples 1 (Frame:1).
+[2020.06.20-15.37.02:303][674]LogSlate: Window 'PlayerSprite_Sprite_31' being destroyed
+[2020.06.20-15.37.02:309][674]LogSlate: Window 'PlayerSprite_Sprite_31' being destroyed
+[2020.06.20-15.37.02:340][674]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.20-15.37.02:340][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.20-15.37.08:714][ 46]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Sprites/Player/PlayerSprite_Sprite_16.PlayerSprite_Sprite_16
+[2020.06.20-15.37.20:136][714]LogSlate: Window 'PlayerSprite_Sprite_16' being destroyed
+[2020.06.20-15.37.20:142][714]LogSlate: Window 'PlayerSprite_Sprite_16' being destroyed
+[2020.06.20-15.37.20:151][714]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.06.20-15.37.20:151][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.20-15.37.33:591][498]LogSlate: Window 'Color Picker' being destroyed
+[2020.06.20-15.37.52:010][603]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.20-15.37.52:849][650]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Sprites/Player/PlayerSprite.PlayerSprite
+[2020.06.20-15.38.06:758][468]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.38.06:765][468]LogSlate: Window 'PlayerSprite' being destroyed
+[2020.06.20-15.38.26:551][431]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.20-15.38.33:927][870]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter
+[2020.06.20-15.38.34:167][870]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.06.20-15.39.16:348][304]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2020.06.20-15.39.16:390][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.06.20-15.39.16:427][304]LogSlate: Took 0.008182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.20-15.39.16:816][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerCharacter" FILE="D:/UE4 Projects/Simple_Beginnings/Content/Blueprints/BP_PlayerCharacter.uasset" SILENT=true
+[2020.06.20-15.39.16:837][325]LogSavePackage: Moving 'D:/UE4 Projects/Simple_Beginnings/Saved/BP_PlayerCharacter4E7A08E14766EED839F64BAA68D3B8B1.tmp' to 'D:/UE4 Projects/Simple_Beginnings/Content/Blueprints/BP_PlayerCharacter.uasset'
+[2020.06.20-15.39.16:872][325]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2020.06.20-15.39.16:872][325]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter
+[2020.06.20-15.39.18:746][382]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.20-15.39.18:762][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.20-15.39.18:764][382]PIE: New page: PIE session: Level_1_Prototype (20 Jun 2020, 17:39:18)
+[2020.06.20-15.39.18:770][382]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.20-15.39.18:772][382]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.20-15.39.18:773][382]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1_Prototype
+[2020.06.20-15.39.18:789][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015466s)
+[2020.06.20-15.39.18:791][382]LogAIModule: Creating AISystem for world Level_1_Prototype
+[2020.06.20-15.39.18:791][382]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000227C7818400), frame # 53382
+[2020.06.20-15.39.18:792][382]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000227ACB42340), frame # 53382
+[2020.06.20-15.39.18:792][382]LogPlayLevel: PIE: World Init took: (0.003061s)
+[2020.06.20-15.39.18:792][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1_Prototype.Level_1_Prototype to /Game/Levels/UEDPIE_0_Level_1_Prototype.Level_1_Prototype (0.018689s)
+[2020.06.20-15.39.18:810][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.20-15.39.18:814][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.20-15.39.18:814][382]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.20-15.39.18:814][382]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.20-15.39.18:819][382]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.20-15.39.18:819][382]LogAudioMixer: Display: 1: FrontRight
+[2020.06.20-15.39.18:840][382]LogAudioMixer: Display: Using Audio Device Headset Earphone (Pixel USB-C earbuds)
+[2020.06.20-15.39.18:841][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.20-15.39.18:841][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.20-15.39.18:841][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.20-15.39.18:841][382]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.20-15.39.18:855][382]LogInit: FAudioDevice initialized.
+[2020.06.20-15.39.18:869][382]LogLoad: Game class is 'GameModeBase'
+[2020.06.20-15.39.18:877][382]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1_Prototype.Level_1_Prototype up for play (max tick rate 60) at 2020.06.20-16.39.18
+[2020.06.20-15.39.18:878][382]LogWorld: Bringing up level for play took: 0.001518
+[2020.06.20-15.39.18:879][382]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.06.20-15.39.18:895][382]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.06.20-15.39.18:899][382]PIE: Server logged in
+[2020.06.20-15.39.18:901][382]PIE: Play in editor total start time 0.143 seconds.
+[2020.06.20-15.39.20:277][415]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.20-15.39.21:109][415]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.831 s
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: 
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: Ensure condition failed: !GMainThreadBlockedOnRenderThread.Load(EMemoryOrder::Relaxed) || !IsInGameThread() [File:D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\RenderCore\Public\RenderingThread.h] [Line: 43]
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: 
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: Stack: 
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa778798f8 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa7783cf04 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9b57a738 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9b5726ca UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c989476 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d57dc USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30e1f73 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f3fde4 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf1f010c4 win32u.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d94e2 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d9449 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9900e9bf UE4Editor-Core.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c98bade UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9ca44c6e UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9ca66a08 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9b5726ed UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c989476 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d57dc USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30e1f73 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f3fde4 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf1f01184 win32u.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d436a USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d3aff USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecac58f uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecabff1 uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d403f USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c988e9a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d57dc USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:109][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30e1f73 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f3fde4 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf1f01184 win32u.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d436a USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d3aff USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecac58f uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecabff1 uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d403f USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c988e9a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5602 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c98bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f268c4 UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f3ba7c UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f3bb5a UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f4e31d UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f5145a UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf2587bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f0ce51 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.21:110][415]LogOutputDevice: Error: 
+[2020.06.20-15.39.23:394][415]LogStats:                SubmitErrorReport -  0.000 s
+[2020.06.20-15.39.26:015][415]LogStats:                    SendNewReport -  2.621 s
+[2020.06.20-15.39.26:015][415]LogStats:             FDebug::EnsureFailed -  5.737 s
+[2020.06.20-15.39.26:016][415]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.20-15.39.26:017][415]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.06.20-15.39.26:017][415]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.20-15.39.26:017][415]LogOutputDevice: Error: 
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: Ensure condition failed: !GMainThreadBlockedOnRenderThread.Load(EMemoryOrder::Relaxed) || !IsInGameThread() [File:D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\RenderCore\Public\RenderingThread.h] [Line: 43]
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: 
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: Stack: 
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9cb4a748 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9ca6692e UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9b5726ed UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c989476 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d57dc USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30e1f73 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f3fde4 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf1f010c4 win32u.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d94e2 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d9449 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9900e9bf UE4Editor-Core.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c98bade UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9ca44c6e UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9ca66a08 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9b5726ed UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c989476 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d57dc USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30e1f73 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f3fde4 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf1f01184 win32u.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d436a USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d3aff USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecac58f uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecabff1 uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d403f USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c988e9a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d57dc USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30e1f73 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f3fde4 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf1f01184 win32u.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d436a USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d3aff USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecac58f uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaeecabff1 uxtheme.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d403f USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c988e9a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c9717d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5c0d USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf30d5602 USER32.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffa9c98bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f268c4 UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f3ba7c UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f3bb5a UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f4e31d UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ff744f5145a UE4Editor.exe!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf2587bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: [Callstack] 0x00007ffaf3f0ce51 ntdll.dll!UnknownFunction []
+[2020.06.20-15.39.26:018][415]LogOutputDevice: Error: 
